@@ -1093,6 +1093,10 @@ docker info | grep -i cgroup
 
 Se a saída foi ``Cgroup Driver: systemd``, tudo certo!
 
+Mais informações sobre ```Cgroups``` podem ser encontradas em _Managing cgroups with systemd_ partes
+[um](https://www.redhat.com/sysadmin/cgroups-part-one), [dois](https://redhat.com/sysadmin/cgroups-part-two),
+[três](https://redhat.com/sysadmin/cgroups-part-three) e [quatro](https://www.redhat.com/sysadmin/cgroups-part-four).
+
 O próximo passo é efetuar a adição dos repositórios do k8s e efetuar a instalação do ``kubeadm``.
 
 Em distribuições Debian e baseadas, isso pode ser realizado com os comandos a seguir.
